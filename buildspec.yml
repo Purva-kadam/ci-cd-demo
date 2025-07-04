@@ -3,13 +3,8 @@ phases:
   install:
     commands:
       - echo Installing NGINX
-<<<<<<< HEAD
       - sudo yum -y update
       - sudo yum install nginx -y
-=======
-      - sudo apt-get update
-      - sudo apt-get install nginx -y
->>>>>>> b39e2e689698416029683e05190a9ef99d1de38e
       - sudo mkdir -p /var/www/html
       - echo NGINX insstalled and version nginx -v
   build:
@@ -22,8 +17,4 @@ phases:
 artifacts:
   files:
     - '**/*'
-<<<<<<< HEAD
     - '**/*'
-=======
-    - '**/*'
->>>>>>> b39e2e689698416029683e05190a9ef99d1de38e

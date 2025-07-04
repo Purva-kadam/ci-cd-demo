@@ -11,8 +11,4 @@ hooks:
   ApplicationStart:
     - location: scripts/start_nginx.sh
       timeout: 300
-<<<<<<< HEAD
       runas: root
-=======
-      runas: root
->>>>>>> b39e2e689698416029683e05190a9ef99d1de38e
